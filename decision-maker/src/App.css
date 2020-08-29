@@ -1,0 +1,75 @@
+.body {
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.button-container {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.btn {
+  border-bottom: 1px solid #e6e6e6;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 1em;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  height: 36px;
+}
+.plus {
+  font-weight: 400;
+  font-size: 14px;
+}
+.submit-button {
+  background-color: #80b743;
+  color: white;
+  height: 60px;
+  font-size: 20px;
+}
+.results-container {
+  width: 100%;
+  justify-content: center;
+}
+.result-text-container {
+  text-align: center;
+  width: 100%;
+}
+.result-header {
+  color: #2fa4e7;
+  font-size: 30px;
+}
+.result-header-dark {
+  color: #2fa4e7;
+  font-size: 30px;
+  text-align: center;
+}
+.results-page-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: auto;
+}
+.buttons {
+  display: "flex";
+  flex-direction: column;
+}
+.button {
+  width: 100%;
+}
+.selected {
+  color: red;
+}
